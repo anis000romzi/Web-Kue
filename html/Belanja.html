@@ -8,13 +8,16 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" href="../css/belanja-style.css" />
+    <script type="text/javascript" src="../js/script.js"></script>
     <title>Daftar Kue</title>
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <div id="top" class="header">
         <h1>Selamat Datang!</h1>
-        <p>Kue Rekomendasi Hari Ini Adalah</p>
+        <p>Selamat Berbelanja...</p>
+        <a href="../html/Home.html"><p>HOME</p></a>
+        <h2 align="right">TOKO KUE</h2>
       </div>
       <div class="main">
         <div class="kue">
@@ -25,7 +28,7 @@
           />
           <h2>BLACK FOREST</h2>
           <h3>Rp. 60,000</h3>
-          <form action="../html/Detail/Detail-BlackForest.html">
+          <form action="../html/Detail/Detail-BlackForest.php">
             <input type="submit" class="btn" value="Detail" />
           </form>
         </div>
@@ -37,7 +40,7 @@
           />
           <h2>LAVA CAKE</h2>
           <h3>Rp. 70,000</h3>
-          <form action="../html/Detail/Detail-LavaCake.html">
+          <form action="../html/Detail/Detail-LavaCake.php">
             <input type="submit" class="btn" value="Detail" />
           </form>
         </div>
@@ -49,10 +52,16 @@
           />
           <h2>BROWNIES</h2>
           <h3>Rp. 40,000</h3>
-          <form action="../html/Detail/Detail-Brownies.html">
+          <form action="../html/Detail/Detail-Brownies.php">
             <input type="submit" class="btn" value="Detail" />
           </form>
         </div>
+      </div>
+      <div class="back-to-top" align="center">
+      <a href="#top">
+        <span>^</span><br />
+        <span>Kembali ke Atas</span>
+      </a>
       </div>
       <div class="footer" align="center">
         <p>Copyright &copy; 2021, Kelompok 6</p>
