@@ -23,18 +23,18 @@ $_SESSION['harga'] = 40000;
       <h1>BROWNIES</h1>
       <h2>Rp. 40,000</h2>
       <form action="../../php/konfirmasi.php" method="POST">
-        <label for="jumlahBeli">Jumlah :</label>
-        <input type="number" id="jumlahBeli" min="1" name="jumlah" size="30" required /><br />
-        <label for="ukuranBeli">Ukuran Kue :</label>
+        <label for="jumlahBeli">Jumlah :</label><br />
+        <input type="number" id="jumlahBeli" min="1" name="jumlah" size="30" required /><br /><br />
+        <label for="ukuranBeli">Ukuran Kue :</label><br />
         <select name="opsi" id="ukuranBeli" required>
           <option value="">Pilih Ukuran Kue</option>
           <option value="Kecil">Kecil</option>
           <option value="Sedang">Sedang</option>
           <option value="Besar">Besar</option>
-        </select><br />
-        <label for="alamat">Alamat :</label>
-        <input id="alamat" name="alamat" size="30" placeholder="Jalan, RT/RW, Kode Pos, Kelurahan-Kecamatan" required /><br />
-        <label for="catatan">Catatan Tambahan :</label>
+        </select><br /><br />
+        <label for="alamat">Alamat :</label><br />
+        <input id="alamat" name="alamat" size="30" placeholder="Jalan, RT/RW, Kode Pos, Kelurahan-Kecamatan" required /><br /><br />
+        <label for="catatan">Catatan Tambahan :</label><br />
         <textarea id="catatan" rows="3" name="note"></textarea><br />
         <input type="submit" class="btn" value="Beli" />
         <button type="button" class="btn btn-danger" onclick="history.back();" value="Kembali">Kembali</button>

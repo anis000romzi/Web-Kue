@@ -21,3 +21,40 @@ img{
   grid-column-gap: 15px;
   grid-row-gap: 15px;
 }
+
+@media screen and (max-width: 800px) {
+  img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+  
+  .container{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    grid-row-gap: 15px;
+  }
+
+}
+
+.main{
+  color: #3c1321;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 15px;
+  border: 0;
+  background-color: #8d5524;
+  color: #fffdd0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3c1321;
+}

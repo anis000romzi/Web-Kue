@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
+*{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fffdd0;
   font-family: "Lato", sans-serif;
@@ -12,7 +16,6 @@ body {
   top: 0;
   width: 50%;
   height: 60px;
-  font-weight: 400;
   background-color: #3c1321;
   z-index: 5;
   margin-left: 25%;
@@ -41,6 +44,13 @@ body {
 .nav li a:hover {
   background-color: #7e2262;
   height: 100%;
+}
+
+@media screen and (max-width: 800px){
+  .nav{
+    width: 100%;
+    margin: 0px;
+  }  
 }
 
 .header {
@@ -98,6 +108,12 @@ body {
   text-align: left;
   margin-left: 400px;
   margin-top: 70px;
+}
+
+@media screen and (max-width: 800px) {
+  .feature ul{
+    margin-left: 0px;
+  }  
 }
 
 .feature .fas {
