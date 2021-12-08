@@ -43,6 +43,9 @@ img{
   text-decoration: none;
   color: #fffdd0;
   font-weight: bolder;
+  position: relative;
+  left: 20px;
+  top: 20px;
 }
 
 .header a:hover{
