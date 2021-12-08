@@ -1,0 +1,77 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+body {
+  background-color: #fffdd0;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  width: 100%;
+}
+
+img{
+  width: 321px;
+  height: auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.header{
+  color: #3c1321;
+}
+
+.main{
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.kue{
+  background-color: #ffcd94;
+  color: #3c1321;
+  height: 310px;
+  border-radius: 20px;
+}
+
+.kue h2{
+  margin-left: 20px;
+  position: relative;
+  bottom: 10px;
+}
+
+.kue h3{
+  margin-left: 20px;
+  position: relative;
+  bottom: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 15px;
+  border: 0;
+  background-color: #8d5524;
+  color: #fffdd0;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  bottom: 85px;
+  left: 190px;
+}
+
+.btn:hover {
+  background-color: #3c1321;
+}
+
+.footer {
+  background-color: #3c1321;
+  color: white;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
