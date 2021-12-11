@@ -20,6 +20,7 @@ img{
   padding: 10px;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+  color: #3c1321;
 }
 
 @media screen and (max-width: 800px) {
@@ -38,8 +39,30 @@ img{
 
 }
 
-.main{
-  color: #3c1321;
+input, select{
+  display: block;
+  width: 70%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input:focus {
+  border-color: #3c1321;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #8d5524;
+}
+
+textarea {
+  min-height: 120px;
+  width: 70%;
+  padding: 0.625rem;
+  resize: vertical;
 }
 
 .btn {
