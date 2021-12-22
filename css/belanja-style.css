@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
-*{
+* {
   scroll-behavior: smooth;
 }
 
@@ -11,14 +11,14 @@ body {
   width: 100%;
 }
 
-img{
+img {
   width: 321px;
   height: auto;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
-.header{
+.header {
   background-color: chocolate;
   position: relative;
   bottom: 22px;
@@ -26,25 +26,25 @@ img{
   color: #fffdd0;
 }
 
-.header h1{
+.header h1 {
   position: relative;
   top: 35px;
   margin-left: 20px;
 }
 
-.header h2{
+.header h2 {
   position: relative;
   bottom: 65px;
   margin-right: 20px;
 }
 
-.header p{
+.header p {
   position: relative;
   top: 10px;
   margin-left: 20px;
 }
 
-.header a{
+.header a {
   text-decoration: none;
   color: #fffdd0;
   font-weight: bolder;
@@ -53,51 +53,60 @@ img{
   top: 20px;
 }
 
-.header a:hover{
+.header a:hover {
   color: #8d5524;
 }
 
-.main{
-  display: inline-grid;
-  grid-template-columns: auto auto auto auto;
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto;
   padding: 10px;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+  justify-content: center;
 }
 
-.kue{
+.kue {
   background-color: #ffcd94;
   color: #3c1321;
   height: 310px;
   border-radius: 20px;
 }
 
+@media screen and (max-width: 1100px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+  }
+}
+
 @media screen and (max-width: 800px) {
-  .main{
+  .main {
     display: grid;
     grid-template-columns: auto;
     padding: 10px;
     grid-row-gap: 50px;
-    justify-content: center;
   }
-  img{
+  img {
     width: 400px;
     height: auto;
   }
-  .kue{
+  .kue {
     width: 400px;
     height: 370px;
   }
-
 }
 
-.kue h2{
+.kue h2 {
   margin-left: 20px;
   position: relative;
   bottom: 10px;
 }
 
-.kue h3{
+.kue h3 {
   margin-left: 20px;
   position: relative;
   bottom: 20px;
@@ -119,23 +128,30 @@ img{
   left: 190px;
 }
 
+@media screen and (max-width: 800px) {
+  .btn {
+    position: relative;
+    left: 250px;
+  }
+}
+
 .btn:hover {
   background-color: #3c1321;
 }
 
-.back-to-top{
+.back-to-top {
   position: relative;
   top: 100px;
 }
 
-.back-to-top a{
+.back-to-top a {
   font-size: 17px;
   color: #3c1321;
   font-weight: bolder;
   text-decoration: none;
 }
 
-.back-to-top a:hover{
+.back-to-top a:hover {
   color: #7e2262;
 }
 

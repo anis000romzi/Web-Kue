@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css?family=Lato:400,700";
 
-*{
+* {
   scroll-behavior: smooth;
 }
 
@@ -46,11 +46,11 @@ body {
   height: 100%;
 }
 
-@media screen and (max-width: 800px){
-  .nav{
+@media screen and (max-width: 800px) {
+  .nav {
     width: 100%;
     margin: 0px;
-  }  
+  }
 }
 
 .header {
@@ -105,15 +105,7 @@ body {
 .feature ul {
   list-style-type: none;
   font-size: 30px;
-  text-align: left;
-  margin-left: 400px;
   margin-top: 70px;
-}
-
-@media screen and (max-width: 800px) {
-  .feature ul{
-    margin-left: 0px;
-  }  
 }
 
 .feature .fas {
@@ -175,5 +167,3 @@ body {
   border-top-right-radius: 20px;
   z-index: 4;
 }
-
-
