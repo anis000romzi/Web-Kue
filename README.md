@@ -1,5 +1,4 @@
-# Web-Kue
-Projek Website E-commerce Toko Kue
+# Projek Website E-commerce Toko-kue
 
 Kelas: 15.3A.07
 Kelompok 6:
