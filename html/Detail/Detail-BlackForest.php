@@ -17,7 +17,6 @@ $_SESSION['harga'] = 60000;
   <div class="container">
     <div class="header">
       <img class="foto-kue" src="../../image/BLACKFOREST.jpg" alt="Kue BlackForest" />
-      <p></p>
     </div>
     <div class="main">
       <h1>BLACK FOREST</h1>
